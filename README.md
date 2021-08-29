@@ -1,10 +1,10 @@
 # CPU Scheduling by MLFQ and Fault Handler --> Operating System project
 
 
-## CPU Scheduling-by-MLFQ
- The default scheduler in the FOS is round robin 
+## CPU Scheduling by MLFQ
+ The default scheduler in the FOS is round robin.
  
- Main drawback: favor processor-bound processes over I/O-bound processes, which results 
+ Main drawback: favor processor-bound processes over I/O-bound processes, which results.
     
     1. in poor performance for I/O-bound processes,  
     
@@ -26,7 +26,9 @@
     
     A short process will complete quickly, without migrating very far down the hierarchy of ready queues.
     
-    A longer process will gradually drift downward. ▪ Thus, newer, shorter processes are favored over older, longer processes.
+    A longer process will gradually drift downward.
+    
+    Thus, newer, shorter processes are favored over older, longer processes.
     
     Within each queue, except the lowest-priority queue, a simple FIFO mechanism is used.
     
