@@ -38,7 +38,7 @@
     
    
    
-   ## Fault Handler
+## Fault Handler
    
 Fault: is an exception thrown by the processor (MMU) to indicate that: 
   o A page can’t be accessed due to either it’s not present in the main memory OR.
